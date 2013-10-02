@@ -227,8 +227,27 @@ b, strong {
     font-weight: bold;
 }
 
-.code {
+em, i {
+    font-family: "Droid Sans", sans-serif;
+    font-style: italic;
+}
+
+.content ul {
+    list-style-image: none;
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+code, .code {
     font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+}
+
+.content code {
+    background-color: rgba(153,153,153,0.05);
+    padding-left: 3px;
+    padding-right: 3px;
+    color: black;
 }
 
 pre {
