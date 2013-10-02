@@ -320,7 +320,7 @@ function program1(depth0,data) {
   buffer += "\n        <h4>Notes</h4>\n        <p>";
   if (stack1 = helpers.notes) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.notes; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
-  if(stack1 || stack1 === 0) { buffer += stack1; }
+  if(stack1 || stack1 === 0) { buffer += new Markdown.Converter().makeHtml(stack1); }
   buffer += "</p>\n        ";
   return buffer;
   }

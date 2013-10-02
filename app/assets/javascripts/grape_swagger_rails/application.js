@@ -18,6 +18,7 @@
 //= require grape_swagger_rails/handlebars-1.0.0.js
 //= require grape_swagger_rails/underscore-min.js
 //= require grape_swagger_rails/backbone-min.js
+//= require grape_swagger_rails/Markdown.Converter.js
 //= require grape_swagger_rails/swagger.js
 //= require grape_swagger_rails/swagger-ui.js
 //= require grape_swagger_rails/highlight.7.3.pack.js
